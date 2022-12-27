@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style age.css" />
+  </head>
+  <body>
+
+      <!-- menu  -->
+
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="./index.html">Home</a>
+    <a href="./age calculator.html">Calculate Age</a>
+    <a href="./currency.html">Currency Convertor</a>
+    <a href="./unit.html">Unit Convertor</a>
+    <a href="./about.html">More</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">Menu</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+
+      <div class="title">
+        <h3>Calculate your Age in one click</h3>
+      </div>
+
+      <div class="inputs-wrapper">
+        <input type="date" id="date-input" />
+        <button onclick="ageCalculate()" >Calculate</button>
+      </div>
+
+      <div class="ans">
+        <p>Your current age is</p>
+      </div>
+
+      <div class="outputs-wrapper">
+       <div id="left">
+        <span id="years"> - </span>
+        <p>Years</p>
+       </div>
+
+      <div id="mid">
+        <span id="months"> - </span>
+        <p>Months</p>
+      </div>
+
+      <div id="right">
+        <span id="days"> - </span>
+        <p>Days</p>
+      </div>
+
+      </div>
+
+    </div>
+
+    <script src="./script age.js"></script>
+  </body>
+</html>
